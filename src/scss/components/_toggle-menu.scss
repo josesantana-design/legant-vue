@@ -1,0 +1,57 @@
+//Toggle Menu
+.menu-opener,
+.menu-opener:hover,
+.menu-opener.active,
+.menu-opener-inner,
+.menu-opener-inner::before,
+.menu-opener-inner::after,
+.menu, .menu.active {
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+.menu-opener {
+  cursor: pointer;
+  height: 64px;
+  position: absolute;
+  right: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 64px;
+  z-index: 3;
+	@media (min-width: 576px) {
+		display: none;
+	}
+}
+
+.menu-opener-inner {
+  background: #33c3f0;
+  height: .3rem;
+  margin-left: .75rem;
+  margin-top: 1.75rem;
+  width: 2rem;
+}
+.menu-opener-inner::before, .menu-opener-inner::after {
+  background: #33c3f0;
+  content: '';
+  display: block;
+  height: .3rem;
+  width: 2rem;
+}
+.menu-opener-inner::before {
+  transform: translateY(-0.6rem);
+}
+.menu-opener-inner::after {
+  transform: translateY(0.3rem);
+}
+.menu-opener-inner.active {
+  background: transparent;
+}
+.menu-opener-inner.active::before {
+  transform: translateY(0rem) rotate(-45deg);
+}
+.menu-opener-inner.active::after {
+  transform: translateY(-0.3rem) translateX(0rem) rotate(45deg);
+}

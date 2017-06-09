@@ -1,0 +1,167 @@
+/*Variables*/
+
+@import "scss/main.scss";
+
+
+$color-one: #33c3f0;
+$color-two: #0b43b8;
+
+body {
+	background: white;
+  color: #333;
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+.legant {
+	background: url(./assets/img/banner.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	&_top {
+		width: 100%;
+		z-index: 2;
+		background-color: white;
+		@media (min-width: 992px) {
+			background-color: transparent;
+		}
+	}
+	// Continene El logo y el nav
+	&_navbar {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		@media (min-width: 992px) {
+			justify-content: space-between;
+		}
+		// Logo
+		&_brand {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding: 1em 0;
+			opacity: 1;
+			@media (min-width: 576px) {
+				justify-content: center;
+			}
+			@media (min-width: 992px) {
+				opacity: 0;
+				width: 30%;
+				padding: 0;
+			}
+		}
+		// Nav
+		&_nav {
+			flex: none;
+			z-index: 2;
+			margin: 0;
+			padding: 0;
+			background-color: $color-two;
+			display: none;
+			transition: all .2s ease-out;
+			width: 100%;
+			@media (min-width: 576px) {
+				display: flex;
+				background-color: white;
+			}
+			@media (min-width: 992px) {
+				height: 63px;
+				width: 70%;
+				background-color: transparent;
+				justify-content: flex-end;
+			}
+			&.open {
+				display: block;
+			}
+			&_list {
+				float: left;
+				width: 100%;
+				@media (min-width: 576px) {
+					display: flex;
+					width: 20%;
+				}
+				@media (min-width: 992px) {
+					float: left;
+					margin-left: 10px;
+					margin-right: 10px;
+				}
+				a {
+					display: block;
+					padding: 20px 20px;
+					color: white;
+					text-transform: uppercase;
+					font-size: 0.75rem;
+					transition: all .2s;
+					@media (min-width: 576px) {
+						font-size: 0.875rem;
+						color: $color-one;
+					}
+					@media (min-width: 992px) {
+						color: white;
+					}
+					&:hover {
+						background-color: $color-one;
+						@media (min-width: 576px) {
+							background-color: white;
+							color: $color-two;
+						}
+						@media (min-width: 992px) {
+							transition: all .2s;
+							background-color: transparent;
+							color: $color-one;
+						}
+					}
+				}
+			}
+		}
+
+	}
+	// Logo del banner
+	&_brand-center {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			img {
+				width: 100%;
+				margin-bottom: 20px;
+				@media (min-width: 576px) {
+					width: 390px;
+				}
+				@media (min-width: 992px) {
+					width: 390px;
+					height: 250px;
+				}
+			}
+	}
+
+	// Arrow del banner
+  &_top-scroll {
+		text-align: center;
+		color: white;
+		position: absolute;
+		bottom: 30px;
+		i {
+				border: 2px solid;
+				border-radius: 50%;
+				padding: 10px 13px;
+		}
+	}
+}

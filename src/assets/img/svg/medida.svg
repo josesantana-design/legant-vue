@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#FF7BAC;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#E2E2E2;}
+	.st3{fill:#333333;}
+	.st4{fill:#C2C2C6;}
+	.st5{fill:#2BD2F9;}
+	.st6{fill:#333333;stroke:#333333;stroke-width:2;stroke-miterlimit:10;}
+	.st7{fill:#333333;stroke:#333333;stroke-miterlimit:10;}
+	.st8{display:none;}
+	.st9{display:inline;fill:#EFEAEA;}
+	.st10{display:inline;fill:#999898;}
+	.st11{display:inline;fill:#2BD2F9;}
+</style>
+<g id="Capa_1">
+	<rect class="st0" width="300" height="300"/>
+	<path class="st1" d="M243,212.3l-79.7,46c-5,2.9-11.1,2.9-16.1,0l-79.7-46c-5-2.9-8.1-8.2-8.1-14l0-92.1c0-5.8,3.1-11.1,8.1-14
+		l71.8-41.4c9.9-5.7,22.2-5.7,32.1,0L243,92.3c5,2.9,8.1,8.2,8.1,14l0,92.1C251,204.1,247.9,209.4,243,212.3z"/>
+</g>
+<g id="Medida">
+	<g>
+		<path class="st2" d="M224,98.8v7.2H90v99c0,2.8,2.3,5,5,5h124.2c2.8,0,5-2.3,5-5V100C224.2,99.6,224.1,99.2,224,98.8z"/>
+		<path class="st3" d="M224,100.1c-0.6-2.9-2.5-5.1-4.8-5.1H95c-2.8,0-5,3.1-5,6.8v8.2h134V100.1z"/>
+	</g>
+	<circle class="st4" cx="100" cy="103" r="2.5"/>
+	<circle class="st4" cx="107" cy="103" r="2.5"/>
+	<circle class="st4" cx="114" cy="103" r="2.5"/>
+	<rect x="100" y="120" class="st5" width="114" height="78"/>
+	<path class="st4" d="M212.5,104h-81c-0.8,0-1.5-0.7-1.5-1.5l0,0c0-0.8,0.7-1.5,1.5-1.5h81c0.8,0,1.5,0.7,1.5,1.5l0,0
+		C214,103.3,213.3,104,212.5,104z"/>
+	<path class="st6" d="M142,139.1l-1-1c-0.3-0.3-0.8-0.3-1.2,0L120,158c-0.3,0.3-0.3,0.8,0,1.2l0.3,0.3c0,0,0,0.1,0.1,0.1l19.2,19.2
+		c0.3,0.3,0.8,0.3,1.2,0l0.9-0.9c0.3-0.3,0.3-0.8,0-1.2l-18-18l18.4-18.4C142.4,139.9,142.4,139.4,142,139.1z"/>
+	<path class="st6" d="M173,139.1l0.9-1c0.3-0.3,0.7-0.3,1,0l17.2,19.9c0.3,0.3,0.3,0.8,0,1.2l-0.3,0.3c0,0,0,0.1-0.1,0.1l-16.7,19.2
+		c-0.3,0.3-0.7,0.3-1,0l-0.8-0.9c-0.3-0.3-0.3-0.8,0-1.2l15.6-18l-16-18.4C172.8,139.9,172.8,139.4,173,139.1z"/>
+	<path class="st7" d="M149.9,178.8L149.9,178.8c-0.8-0.3-1.2-1.1-0.9-1.9l13-36c0.3-0.8,1.1-1.2,1.9-0.9l0,0
+		c0.8,0.3,1.2,1.1,0.9,1.9l-13,36C151.5,178.7,150.7,179.1,149.9,178.8z"/>
+</g>
+<g id="Movil" class="st8">
+	<path class="st9" d="M187.2,219h-61c-2.8,0-5-2.3-5-5V92c0-2.8,2.3-5,5-5h61c2.8,0,5,2.3,5,5v122C192.2,216.8,189.9,219,187.2,219z
+		"/>
+	<ellipse class="st10" cx="156.7" cy="208.1" rx="4.3" ry="4.7"/>
+	<path class="st10" d="M165.6,97.1h-17.9c-0.6,0-1-0.4-1-1v-0.8c0-0.6,0.4-1,1-1h17.9c0.6,0,1,0.4,1,1v0.8
+		C166.6,96.6,166.2,97.1,165.6,97.1z"/>
+	<rect x="128.6" y="102.6" class="st11" width="56.2" height="96.2"/>
+</g>
+</svg>
